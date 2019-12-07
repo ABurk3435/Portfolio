@@ -3,18 +3,36 @@
     padding:0px;
 }
 
-
-#top {
-    background-color: darkgrey
+header {
+    background-color: white;
+    min-height: 60px;
 }
 
-#left {
-    background-color: rgb(11, 80, 107);
-    width: 20%;
+#sidebarleft {
+    background-color: darkslateblue;
+    min-height: 350px;
     float: left;
+    width: 200px;
 }
 
-#right {
-    background-color: darkgreen;
-    margin-left: 20%;            
+#sidebarright {
+    background-color: steelblue;
+    min-height: 350px;
+    float: right;
+    width: 200px;
+
+
+}
+
+#maincontent {
+    background-color: darkgray;
+    min-height: 350px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+footer {
+    background-color: slateblue;
+    min-height: 60px;
 }
