@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding:0px;
+}
+
+
+#top {
+    background-color: darkgrey
+}
+
+#left {
+    background-color: rgb(11, 80, 107);
+    width: 20%;
+    float: left;
+}
+
+#right {
+    background-color: darkgreen;
+    margin-left: 20%;            
+}
